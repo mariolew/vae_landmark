@@ -8,7 +8,7 @@ To better apply deep learning for face alignment, this paper proposes a deep arc
 
 The pipeline of the method is shown as following, an EVAE is used to learn the response maps of the landmarks, and a DCNN to regress landmark locations accurately.
 
-<div align=center><img height="400" src="pics/pipeline.png"/></div>
+<div align=center><img height="400" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/pipeline.png"/></div>
 
 ## Local response learning
 
@@ -16,15 +16,15 @@ Once we remove the sampling operation in the EVAE, the network becomes a FCN. Ex
 
 ### Local response learned on AFLW dataset:
 
-<div align=center><img height="180" src="pics/aflw_response.png"/ alt="Local response learned on AFLW dataset."></div>
+<div align=center><img height="180" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/aflw_response.png"/ alt="Local response learned on AFLW dataset."></div>
 
 ### Local response learned on COFW dataset:
 
-<div align=center><img height="180" src="pics/cofw_response.png"/ alt="Local response learned on COFW dataset."></div>
+<div align=center><img height="180" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/cofw_response.png"/ alt="Local response learned on COFW dataset."></div>
 
 ### Local response on 300-W dataset:
 
-<div align=center><img height="210" src="pics/300w_response.png"/ alt="Local response on 300-W dataset."></div>
+<div align=center><img height="210" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/300w_response.png"/ alt="Local response on 300-W dataset."></div>
 
 ## Results
 
@@ -34,35 +34,35 @@ Experiments on 3 datasets show that this method performs well in complex conditi
 
 CED curve:
 
-<div align=center><img height="300" src="pics/AFLW_CED.png"/ alt="CED curve on AFLW dataset."></div>
+<div align=center><img height="300" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/AFLW_CED.png"/ alt="CED curve on AFLW dataset."></div>
 
 Sample results:
 
-<div align=center><img height="250" src="pics/aflw_show.png"/ alt="CED curve on AFLW dataset."></div>
+<div align=center><img height="250" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/aflw_show.png"/ alt="CED curve on AFLW dataset."></div>
 
 ### Results on COFW dataset:
 
 CED curve:
 
-<div align=center><img height="300" src="pics/COFW_CED.png"/ alt="CED curve on AFLW dataset."></div>
+<div align=center><img height="300" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/COFW_CED.png"/ alt="CED curve on AFLW dataset."></div>
 
 Sample results:
 
-<div align=center><img height="550" src="pics/cofw_show.png"/ alt="CED curve on AFLW dataset."></div>
+<div align=center><img height="550" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/cofw_show.png"/ alt="CED curve on AFLW dataset."></div>
 
 ### Results on 300-W dataset:
 
 CED curve on Common subset:
 
-<div align=center><img height="300" src="pics/300W_CED_COMMON.png"/ alt="CED curve on AFLW dataset."></div>
+<div align=center><img height="300" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/300W_CED_COMMON.png"/ alt="CED curve on AFLW dataset."></div>
 
 CED curve on Challenging subset:
 
-<div align=center><img height="300" src="pics/300W_CED_HARD.png"/ alt="CED curve on AFLW dataset."></div>
+<div align=center><img height="300" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/300W_CED_HARD.png"/ alt="CED curve on AFLW dataset."></div>
 
 Sample results:
 
-<div align=center><img height="690" src="pics/300w_show.png"/ alt="CED curve on AFLW dataset."></div>
+<div align=center><img height="690" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/300w_show.png"/ alt="CED curve on AFLW dataset."></div>
 
 ## Conclusion
 
