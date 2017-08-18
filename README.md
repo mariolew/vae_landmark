@@ -15,6 +15,8 @@ Once we remove the sampling operation in the EVAE, the network becomes a FCN. Ex
 
 Local response learned on AFLW dataset.
 ![](pics/aflw_response.png)
+<div align=center><img height="150" src="pics/aflw_response.png"/></div>
+
 
 Local response learned on COFW dataset:
 ![](pics/cofw_response.png)
