@@ -16,15 +16,15 @@ Once we remove the sampling operation in the EVAE, the network becomes a FCN. Ex
 
 ### Local response learned on AFLW dataset:
 
-<div align=center><img height="180" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/aflw_response.png"/ alt="Local response learned on AFLW dataset."></div>
+![](pics/aflw_response.png)
 
 ### Local response learned on COFW dataset:
 
-<div align=center><img height="180" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/cofw_response.png"/ alt="Local response learned on COFW dataset."></div>
+![](pics/cofw_response.png)
 
 ### Local response on 300-W dataset:
 
-<div align=center><img height="210" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/300w_response.png"/ alt="Local response on 300-W dataset."></div>
+![](pics/300w_response.png)
 
 ## Results
 
@@ -34,35 +34,35 @@ Experiments on 3 datasets show that this method performs well in complex conditi
 
 CED curve:
 
-<div align=center><img height="300" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/AFLW_CED.png"/ alt="CED curve on AFLW dataset."></div>
+![](pics/AFLW_CED.png)
 
 Sample results:
 
-<div align=center><img height="250" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/aflw_show.png"/ alt="CED curve on AFLW dataset."></div>
+![](pics/aflw_show.png)
 
 ### Results on COFW dataset:
 
 CED curve:
 
-<div align=center><img height="300" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/COFW_CED.png"/ alt="CED curve on AFLW dataset."></div>
+![](pics/COFW_CED.png)
 
 Sample results:
 
-<div align=center><img height="550" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/cofw_show.png"/ alt="CED curve on AFLW dataset."></div>
+![](pics/cofw_show.png)
 
 ### Results on 300-W dataset:
 
 CED curve on Common subset:
 
-<div align=center><img height="300" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/300W_CED_COMMON.png"/ alt="CED curve on AFLW dataset."></div>
+![](pics/300W_CED_COMMON.png)
 
 CED curve on Challenging subset:
 
-<div align=center><img height="300" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/300W_CED_HARD.png"/ alt="CED curve on AFLW dataset."></div>
+![](pics/300W_CED_HARD.png)
 
 Sample results:
 
-<div align=center><img height="690" src="https://github.com/mariolew/vae_landmark/tree/gh-pages/pics/300w_show.png"/ alt="CED curve on AFLW dataset."></div>
+![](pics/300w_show.png)
 
 ## Conclusion
 
