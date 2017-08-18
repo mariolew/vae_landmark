@@ -7,7 +7,8 @@ To better apply deep learning for face alignment, this paper proposes a deep arc
 ## Overall pipeline
 
 The pipeline of the method is shown as following, an EVAE is used to learn the response maps of the landmarks, and a DCNN to regress landmark locations accurately.
-![](pics/pipeline.png)
+
+<div align=center><img height="400" src="pics/pipeline.png"/></div>
 
 ## Local response learning
 
@@ -33,35 +34,35 @@ Results on AFLW dataset:
 
 CED curve:
 
-<div align=center><img height="180" src="pics/AFLW_CED.png"/ alt="CED curve on AFLW dataset."></div>
+<div align=center><img height="300" src="pics/AFLW_CED.png"/ alt="CED curve on AFLW dataset."></div>
 
 Sample results:
 
-<div align=center><img height="200" src="pics/aflw_show.png"/ alt="CED curve on AFLW dataset."></div>
+<div align=center><img height="250" src="pics/aflw_show.png"/ alt="CED curve on AFLW dataset."></div>
 
 Results on COFW dataset:
 
 CED curve:
 
-<div align=center><img height="180" src="pics/COFW_CED.png"/ alt="CED curve on AFLW dataset."></div>
+<div align=center><img height="300" src="pics/COFW_CED.png"/ alt="CED curve on AFLW dataset."></div>
 
 Sample results:
 
-<div align=center><img height="440" src="pics/cofw_show.png"/ alt="CED curve on AFLW dataset."></div>
+<div align=center><img height="550" src="pics/cofw_show.png"/ alt="CED curve on AFLW dataset."></div>
 
 Results on 300-W dataset:
 
 CED curve on Common subset:
 
-<div align=center><img height="180" src="pics/300W_CED_COMMON.png"/ alt="CED curve on AFLW dataset."></div>
+<div align=center><img height="300" src="pics/300W_CED_COMMON.png"/ alt="CED curve on AFLW dataset."></div>
 
 CED curve on Challenging subset:
 
-<div align=center><img height="180" src="pics/300W_CED_HARD.png"/ alt="CED curve on AFLW dataset."></div>
+<div align=center><img height="300" src="pics/300W_CED_HARD.png"/ alt="CED curve on AFLW dataset."></div>
 
 Sample results:
 
-<div align=center><img height="550" src="pics/300w_show.png"/ alt="CED curve on AFLW dataset."></div>
+<div align=center><img height="690" src="pics/300w_show.png"/ alt="CED curve on AFLW dataset."></div>
 
 ## Conclusion
 
