@@ -13,16 +13,11 @@ The pipeline of the method is shown as following, an EVAE is used to learn the r
 
 Once we remove the sampling operation in the EVAE, the network becomes a FCN. Experiments on 3 datasets show that EVAE outperforms FCN in learning local responses.
 
-Local response learned on AFLW dataset.
-![](pics/aflw_response.png)
-<div align=center><img height="150" src="pics/aflw_response.png"/></div>
+<div align=center><img height="180" src="pics/aflw_response.png"/ alt="Local response learned on AFLW dataset."></div>
 
+<div align=center><img height="180" src="pics/cofw_response.png"/ alt="Local response learned on COFW dataset."></div>
 
-Local response learned on COFW dataset:
-![](pics/cofw_response.png)
-
-Local response on 300-W dataset:
-![](pics/300w_response.png)
+<div align=center><img height="180" src="pics/300w_response.png"/ alt="Local response on 300-W dataset."></div>
 
 ## Results
 
