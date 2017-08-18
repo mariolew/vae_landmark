@@ -14,15 +14,15 @@ The pipeline of the method is shown as following, an EVAE is used to learn the r
 
 Once we remove the sampling operation in the EVAE, the network becomes a FCN. Experiments on 3 datasets show that EVAE outperforms FCN in learning local responses.
 
-Local response learned on AFLW dataset:
+### Local response learned on AFLW dataset:
 
 <div align=center><img height="180" src="pics/aflw_response.png"/ alt="Local response learned on AFLW dataset."></div>
 
-Local response learned on COFW dataset:
+### Local response learned on COFW dataset:
 
 <div align=center><img height="180" src="pics/cofw_response.png"/ alt="Local response learned on COFW dataset."></div>
 
-Local response on 300-W dataset:
+### Local response on 300-W dataset:
 
 <div align=center><img height="210" src="pics/300w_response.png"/ alt="Local response on 300-W dataset."></div>
 
@@ -30,7 +30,7 @@ Local response on 300-W dataset:
 
 Experiments on 3 datasets show that this method performs well in complex conditions. Note that *EVAE-CNN* and *WT* are models trained with the proposed method.
 
-Results on AFLW dataset:
+### Results on AFLW dataset:
 
 CED curve:
 
@@ -40,7 +40,7 @@ Sample results:
 
 <div align=center><img height="250" src="pics/aflw_show.png"/ alt="CED curve on AFLW dataset."></div>
 
-Results on COFW dataset:
+### Results on COFW dataset:
 
 CED curve:
 
@@ -50,7 +50,7 @@ Sample results:
 
 <div align=center><img height="550" src="pics/cofw_show.png"/ alt="CED curve on AFLW dataset."></div>
 
-Results on 300-W dataset:
+### Results on 300-W dataset:
 
 CED curve on Common subset:
 
