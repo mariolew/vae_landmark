@@ -8,7 +8,7 @@ To better apply deep learning for face alignment, this paper proposes a deep arc
 
 The pipeline of the method is shown as following, an EVAE is used to learn the response maps of the landmarks, and a DCNN to regress landmark locations accurately.
 
-<div align=center><img src="pics/pipeline.png" height="400"></div>
+<center><img src="pics/pipeline.png" height="400"></center>
 
 ## Local response learning
 
