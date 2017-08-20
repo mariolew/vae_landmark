@@ -16,15 +16,15 @@ Once we remove the sampling operation in the EVAE, the network becomes a FCN. Ex
 
 ### Local response learned on AFLW dataset:
 
-![](pics/aflw_response.png)
+<center><img src="pics/aflw_response.png" height="180"></center>
 
 ### Local response learned on COFW dataset:
 
-![](pics/cofw_response.png)
+<center><img src="pics/cofw_response.png" height="180"></center>
 
 ### Local response on 300-W dataset:
 
-![](pics/300w_response.png)
+<center><img src="pics/300w_response.png" height="210"></center>
 
 ## Results
 
@@ -34,35 +34,35 @@ Experiments on 3 datasets show that this method performs well in complex conditi
 
 CED curve:
 
-![](pics/AFLW_CED.png)
+<center><img src="pics/AFLW_CED.png" height="300"></center>
 
 Sample results:
 
-![](pics/aflw_show.png)
+<center><img src="pics/aflw_show.png" height="250"></center>
 
 ### Results on COFW dataset:
 
 CED curve:
 
-![](pics/COFW_CED.png)
+<center><img src="pics/COFW_CED.png" height="300"></center>
 
 Sample results:
 
-![](pics/cofw_show.png)
+<center><img src="pics/cofw_show.png" height="550"></center>
 
 ### Results on 300-W dataset:
 
 CED curve on Common subset:
 
-![](pics/300W_CED_COMMON.png)
+<center><img src="pics/300W_CED_COMMON.png" height="300"></center>
 
 CED curve on Challenging subset:
 
-![](pics/300W_CED_HARD.png)
+<center><img src="pics/300W_CED_HARD.png" height="300"></center>
 
 Sample results:
 
-![](pics/300w_show.png)
+<center><img src="pics/300w_show.png" height="690"></center>
 
 ## Conclusion
 
